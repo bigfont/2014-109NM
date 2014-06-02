@@ -23,32 +23,42 @@
     <style type="text/css">
         body {
             background-image: url(background-xs.jpg);
-            background-position: 0px -75px, center;
+            background-position: 0px -130px, center;
             background-repeat: no-repeat;
             max-width: 500px;
         }
 
         #contact-buttons {
             position: fixed;
-            top: 315px;
+            top: 260px;
             width: 90%;
         }
 
         #page-header {
-            text-align: Center;
+            margin-top: 30px;
         }
 
-        address p, address a {
-            font-size: 18px !important;
-            padding: 0;
-            margin: 0;
-            margin-bottom: 10px;
-        }
+            #page-header * {
+                text-align: Center;
+                margin: 0;
+                padding: 0;
+            }
 
-        #page-header strong {
-            margin-top: 50px !important;
-            display: block;
-        }
+            #page-header address {
+                margin-bottom: 10px;
+            }
+
+                #page-header address p,
+                #page-header address a {
+                    font-size: 18px;
+                    padding: 0;
+                    margin: 0;
+                    color: black;
+                }
+
+                #page-header address #phone-link {
+                    font-weight: bold;
+                }
 
         /*IE 10*/
         @-webkit-viewport {
@@ -81,8 +91,8 @@
             <h1>Island Taxi</h1>
             <address>
                 <p>Salt Spring Island, BC</p>
-                <p>250-931-1000</p>
-                <p><a href="mailto:info@islandtaxi.ca">info@islandtaxi.ca</a></p>
+                <p><a id="phone-link" href="tel:+1-250-931-1000">250-931-1000</a></p>
+                <p><a id="email-link" href="mailto:info@islandtaxi.ca">info@islandtaxi.ca</a></p>
             </address>
             <p><strong>Friendly, safe, and reliable service.</strong></p>
         </div>
