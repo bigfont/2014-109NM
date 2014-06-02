@@ -65,7 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="background-lg.jpg" />
+    <Content Include="background-md.jpg" />
+    <Content Include="background-orig-cropped.jpg" />
     <Content Include="background-orig.jpg" />
+    <Content Include="background-sm.jpg" />
     <Content Include="background-xs.jpg" />
     <Content Include="background-xs.png" />
     <Content Include="index.html" />
