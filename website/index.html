@@ -33,8 +33,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            border: thin solid gray;
-            padding: 0;
+            padding: 0; /* remove bootstrap top padding */
         }
 
         .center-absolute {
@@ -63,6 +62,9 @@
 
         #page-header address {
             margin: 10px 0;
+            border-top: thin inset silver;
+            border-bottom: thin inset silver;
+            background-color: rgba(0,0,255,0.2);
         }
 
             #page-header address p,
@@ -139,8 +141,8 @@
         </div>
 
         <div id="contact-buttons" class="center-absolute">
-            <a class="btn btn-lg btn-block btn-default" href="tel:+1-250-931-1000">Call Now</a>
-            <a class="btn btn-lg btn-block btn-default" href="tel:+1-250-931-1000">Text Now</a>
+            <a class="btn btn-lg btn-block btn-default" href="tel:+1-250-931-1000"><i class="fa fa-phone">&nbsp;</i>Call Now</a>
+            <a class="btn btn-lg btn-block btn-default" href="mailto:info@islandtaxi.ca"><i class="fa fa-envelope">&nbsp;</i>Email Now</a>
         </div>
 
     </div>
