@@ -65,6 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="background-orig.jpg" />
+    <Content Include="background-xs.jpg" />
     <Content Include="background-xs.png" />
     <Content Include="index.html" />
     <Content Include="robots.txt" />
