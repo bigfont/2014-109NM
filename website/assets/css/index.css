@@ -1,0 +1,109 @@
+﻿@font-face{ 
+	font-family: 'Fira Sans';
+	src: url('../FiraWebfonts/Fira Sans EOT/FiraSans-Regular.eot');
+	src: url('../FiraWebfonts/Fira Sans EOT/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('../FiraWebfonts/Fira Sans WOFF/FiraSans-Regular.woff') format('woff');
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-image: url(../images/background-xs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0; /* remove bootstrap top padding */
+}
+
+.center-absolute {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#page-header {
+    top: 5%;
+}
+
+#contact-buttons {
+    bottom: 5%;
+    padding: 0 5px;
+    max-width: 400px;
+}
+
+#page-header * {
+    text-align: Center;
+    margin: 0;
+    padding: 0;
+}
+
+#page-header address {
+    margin: 10px 0;
+    border-top: thin inset silver;
+    border-bottom: thin inset silver;
+    background-color: rgba(0,0,255,0.2);
+}
+
+    #page-header address p,
+    #page-header address a {
+        font-size: 18px;
+        color: black; /*for links*/
+    }
+
+    #page-header address #phone-link {
+        font-weight: bold;
+    }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-image: url(../images/background-sm.jpg);
+        background-size: 100%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-image: url(../images/background-md.jpg);
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../images/background-lg.jpg);
+    }
+}
+
+/*IE 10*/
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}

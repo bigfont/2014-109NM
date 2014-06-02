@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <title>
         Island Taxi
@@ -12,118 +12,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
+    <!--Font Awesome-->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
-    <style type="text/css">
-        html, body {
-            height: 100%;
-        }
-
-        body {
-            background-attachment: fixed;
-            background-clip: content-box;
-            background-image: url(background-xs.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            padding: 0; /* remove bootstrap top padding */
-        }
-
-        .center-absolute {
-            position: absolute;
-            margin-left: auto;
-            margin-right: auto;
-            left: 0;
-            right: 0;
-        }
-
-        #page-header {
-            top: 5%;
-        }
-
-        #contact-buttons {
-            bottom: 5%;
-            padding: 0 5px;
-            max-width: 400px;
-        }
-
-        #page-header * {
-            text-align: Center;
-            margin: 0;
-            padding: 0;
-        }
-
-        #page-header address {
-            margin: 10px 0;
-            border-top: thin inset silver;
-            border-bottom: thin inset silver;
-            background-color: rgba(0,0,255,0.2);
-        }
-
-            #page-header address p,
-            #page-header address a {
-                font-size: 18px;
-                color: black; /*for links*/
-            }
-
-            #page-header address #phone-link {
-                font-weight: bold;
-            }
-
-        /* Extra small devices (phones, less than 768px) */
-        /* No media query since this is the default in Bootstrap */
-
-        /* Small devices (tablets, 768px and up) */
-        @media (min-width: 768px) {
-            body {
-                background-image: url(background-sm.jpg);
-                background-size: 100%;
-            }
-        }
-
-        /* Medium devices (desktops, 992px and up) */
-        @media (min-width: 992px) {
-            body {
-                background-image: url(background-md.jpg);
-            }
-        }
-
-        /* Large devices (large desktops, 1200px and up) */
-        @media (min-width: 1200px) {
-            body {
-                background-image: url(background-lg.jpg);
-            }
-        }
-
-
-        /*IE 10*/
-        @-webkit-viewport {
-            width: device-width;
-        }
-
-        @-moz-viewport {
-            width: device-width;
-        }
-
-        @-ms-viewport {
-            width: device-width;
-        }
-
-        @-o-viewport {
-            width: device-width;
-        }
-
-        @viewport {
-            width: device-width;
-        }
-    </style>
+    <!--Site CSS-->
+    <link rel="stylesheet" href="assets/css/index.min.css" />
 
 </head>
 <body>
@@ -147,11 +52,11 @@
 
     </div>
 
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <script type="text/javascript">
-        //IE 10
-        $(function () {
+
+        //IE 10 responsive hack
+        (function () {
             // Handler for .ready() called.
 
             if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
@@ -163,14 +68,12 @@
                 )
                 document.querySelector('head').appendChild(msViewportStyle)
             }
-        });
-
-
+        })();
 
     </script>
 
-
-
+    <!--jQuery-->
+    <!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
     <!-- Latest compiled and minified JavaScript -->
     <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
 
