@@ -65,7 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="background-xs.png" />
     <Content Include="index.html" />
+    <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
