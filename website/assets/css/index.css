@@ -47,18 +47,19 @@ h1, h2 {
 
 #contact-buttons {
     bottom: 5%;
+    padding:0 5px;
 }
 
     #contact-buttons a {
         margin: 5px auto;
-        width: 350px;
+        max-width: 350px;
     }
 
 .center-absolute {
     position: absolute;
     width: 100%;
     text-align: center;
-    margin: 0 -15px; /*offset container-fluid padding*/
+    margin: 0 -15px;
 }
 
 /* Extra small devices (phones, less than 768px) */
