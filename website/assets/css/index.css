@@ -22,7 +22,7 @@ body {
 }
 
 #page-header {
-    top: 5%;
+    top: 5%;  
 }
 
 #contact-buttons {
@@ -37,21 +37,28 @@ body {
     padding: 0;
 }
 
+
+#page-header h1 {
+    font-size:30px;
+}
+
 #page-header address {
     margin: 10px 0;
-    border-radius:4px;
-    background-color: rgba(255,0,255,0.1);
     padding:4px;
 }
 
     #page-header address p,
     #page-header address a {
-        font-size: 18px;
+        font-size: 30px;
         color: black; /*for links*/
     }
 
     #page-header address #phone-link {
         font-weight: bold;
+    }
+
+    #page-header h2 {
+        font-size:20px;
     }
 
 /* Extra small devices (phones, less than 768px) */
