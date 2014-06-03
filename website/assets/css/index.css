@@ -1,7 +1,7 @@
 ﻿html, body {
     height: 100%;
     font-family: Arial, sans-serif;
-    min-height: 400px;
+    min-height: 400px; /*prevent buttons from overlapping text*/
 }
 
 body {
@@ -30,7 +30,7 @@ h1, h2 {
     }
 
     #page-title h1 {
-        font-size: 30px;
+        font-size: 34px;
     }
 
     #page-title h2 {
@@ -40,13 +40,10 @@ h1, h2 {
     #page-title address {
         margin: 10px 0;
         padding: 4px;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgb(255, 255, 255); /*fallback*/
+        background: rgba(255, 255, 255, 0.75);
+        font-size: 30px;
     }
-
-        #page-title address p {
-            font-size: 30px;
-            color: black; /*for links*/
-        }
 
 #contact-buttons {
     bottom: 5%;
@@ -54,14 +51,14 @@ h1, h2 {
 
     #contact-buttons a {
         margin: 5px auto;
-        width: 400px;
+        width: 350px;
     }
 
 .center-absolute {
     position: absolute;
     width: 100%;
     text-align: center;
-    margin: 0 -15px;
+    margin: 0 -15px; /*offset container-fluid padding*/
 }
 
 /* Extra small devices (phones, less than 768px) */
