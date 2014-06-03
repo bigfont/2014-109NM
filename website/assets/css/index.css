@@ -1,7 +1,7 @@
 ﻿html, body {
     height: 100%;
     font-family: Arial, sans-serif;
-    min-height:400px;
+    min-height: 400px;
 }
 
 body {
@@ -12,55 +12,57 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 0; /* remove bootstrap top padding */
+    padding: 0; /*remove bootstrap top padding*/
 }
 
-.center-absolute {
-    position: absolute;
-    left:50%;
-    margin-left:-150px;
-    width:300px;
+h1, h2 {
+    color: black;
 }
 
-#page-header {
-    top: 5%;  
+#page-title {
+    top: 5%;
 }
+
+    #page-title * {
+        text-align: Center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #page-title h1 {
+        font-size: 30px;
+    }
+
+    #page-title h2 {
+        font-size: 20px;
+    }
+
+    #page-title address {
+        margin: 10px 0;
+        padding: 4px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+        #page-title address p {
+            font-size: 30px;
+            color: black; /*for links*/
+        }
 
 #contact-buttons {
     bottom: 5%;
-    padding: 0 5px;
-    max-width: 400px;
 }
 
-#page-header * {
-    text-align: Center;
-    margin: 0;
-    padding: 0;
-}
-
-
-#page-header h1 {
-    font-size:30px;
-}
-
-#page-header address {
-    margin: 10px 0;
-    padding:4px;
-}
-
-    #page-header address p,
-    #page-header address a {
-        font-size: 30px;
-        color: black; /*for links*/
+    #contact-buttons a {
+        margin: 5px auto;
+        width: 400px;
     }
 
-    #page-header address #phone-link {
-        font-weight: bold;
-    }
-
-    #page-header h2 {
-        font-size:20px;
-    }
+.center-absolute {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0 -15px;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
