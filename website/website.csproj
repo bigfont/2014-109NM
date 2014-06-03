@@ -57,42 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\FiraWebfonts\Fira Mono EOT\FiraMono-Bold.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Mono EOT\FiraMono-Regular.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Mono WOFF\FiraMono-Bold.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Mono WOFF\FiraMono-Regular.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-Bold.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-BoldItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-Light.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-LightItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-Medium.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-MediumItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-Regular.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans EOT\FiraSans-RegularItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-Bold.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-BoldItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-Light.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-LightItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-Medium.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-MediumItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-Regular.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC EOT\FiraSansSC-RegularItalic.eot" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-Bold.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-BoldItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-Light.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-LightItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-Medium.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-MediumItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-Regular.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans SC WOFF\FiraSansSC-RegularItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-Bold.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-BoldItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-Light.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-LightItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-Medium.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-MediumItalic.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-Regular.woff" />
-    <Content Include="assets\FiraWebfonts\Fira Sans WOFF\FiraSans-RegularItalic.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
