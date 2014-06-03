@@ -16,10 +16,9 @@ body {
 
 .center-absolute {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    left:50%;
+    margin-left:-150px;
+    width:300px;
 }
 
 #page-header {
@@ -40,9 +39,9 @@ body {
 
 #page-header address {
     margin: 10px 0;
-    border-top: thin inset silver;
-    border-bottom: thin inset silver;
-    background-color: rgba(0,0,255,0.2);
+    border-radius:4px;
+    background-color: rgba(255,0,255,0.1);
+    padding:4px;
 }
 
     #page-header address p,
